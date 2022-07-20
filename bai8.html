@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function reverseArr(arr){
+      arr=arr.reverse()
+      return arr;
+  }
+  let long=+prompt("Nhap do dai cua mang")
+  let arr=[]
+  for (let i = 0; i < long; i++) {
+      arr[i]=+prompt("Nhap phan tu thu "+(i+1));
+  }
+  document.write(reverseArr(arr))
+</script>
+</body>
+</html>
